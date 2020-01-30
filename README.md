@@ -1,6 +1,7 @@
 # 5.2.-Flower-identification
 CNN for Flowers Classifier
 
+## Description
 5. Machine learning
     5.2. Flower identification
 
@@ -14,24 +15,27 @@ CNN for Flowers Classifier
       Due to RAM limitation, only simplified model is build. Another complicated model topology is commented off.
     ### step 6: Testing
     
-    ## Performance:
-    Estimated Running Time:
-    
-    Test Accuracy:
+## Performance:
+Estimated Running Time:
 
-    ## Future works:
-    1. DNN has been supported by universal approximation theorem that any continuous function can be approximated by a neural network with finite neurons. Fine tuning is needed to find the suitable hyper-paramters.
-    
-    2. Due to the difficulty of training a complicated CNN, deep transfer learning can be used, which is also proved
-    by academia, to quicken the training time and boost the accuracy.
+Test Accuracy:
 
-    Note:
-      a. Run this script require large RAM, recommend to execute it in a cloud platform.
-        
-         For simplified CNN model, free platforms Kaggle/Colab are able to run.
-         For complicated CNN model, need to go to AWS/Azure cloud.
-            
-      b. To reduce RAM space, do not read images before train_test_split, please make directories as follow:
+## Future works:
+1. DNN has been supported by universal approximation theorem that any continuous function can be approximated by a neural network with finite neurons. Fine tuning is needed to find the suitable hyper-paramters.
+
+2. Due to the difficulty of training a complicated CNN, deep transfer learning can be used, which is also proved
+by academia, to quicken the training time and boost the accuracy.
+
+## Requirements:
+
+a. install python packages: numpy, sklearn, zipfile, tensorflow, shutil, PIL (pillow), matplotlib
+
+b. Run this script require large RAM, recommend to execute it in a cloud platform.
+
+ For simplified CNN model, free platforms Kaggle/Colab are able to run.
+ For complicated CNN model, need to go to AWS/Azure cloud.
+
+c. To reduce RAM space, do not read images before train_test_split, please make directories as follow:
         
             flowers_data
             │
