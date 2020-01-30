@@ -171,18 +171,15 @@ def filename_to_data(img_paths):
 class CNN:
     '''
           deep neural network (CNN)
-          arg:  size = # layers + # neurons/layer
+          arg:  input_size = input array size
                 lr = learning rate
-                num_iter_train = training epochs
-                num_iter_val = validation epochs
-                checkpoint_path = to restore a trained DNN
+                decay
+                loss = cost function
+                metrics = evaluation metrics
                 batch_size = mini-batch process
-                memory_size = limited # training samples
-          input: generated features in X
-          output: predicted category in y
+                epochs = training times
 
-          note: tensorflow 2.0 is adopted
-        '''
+    '''
 
     def __init__(self, input_size, learning_rate, decay, loss, metrics, batch_size, epochs):
         # initialize hyper-parameters, parameters of CNN
