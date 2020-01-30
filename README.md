@@ -21,9 +21,11 @@ Estimated Running Time:
 Test Accuracy:
 
 ## Future works:
-1. DNN has been supported by universal approximation theorem that any continuous function can be approximated by a neural network with finite neurons. Fine tuning is needed to find the suitable hyper-paramters.
+1. With aid of cloud platform, complicated CNN model can be explored.
 
-2. Due to the difficulty of training a complicated CNN, deep transfer learning can be used, which is also proved
+2. DNN has been supported by universal approximation theorem that any continuous function can be approximated by a neural network with finite neurons. Fine tuning is needed to find the suitable hyper-parameters.
+
+3. Due to the difficulty of training a complicated CNN, deep transfer learning can be used, which is also proved
 by academia, to quicken the training time and boost the accuracy.
 
 ## Requirements:
