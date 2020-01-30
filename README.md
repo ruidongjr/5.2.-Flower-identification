@@ -16,9 +16,9 @@ CNN for Flowers Classifier
     ### step 6: Testing
     
 ## Performance:
-Estimated Running Time:
+Estimated Running Time: 10978s
 
-Test Accuracy:
+Test Accuracy: 71.4%
 
 ## Future works:
 1. With aid of cloud platform, complicated CNN model can be explored.
